@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100%;
+    width: 100%;
+   background-color: rgb(14, 118, 118);  
+}
+
+h1{
+    margin-top: 30px;
+   text-align: center; 
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#btn{
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 47%;
+}
+
+.answer{
+    position: absolute;
+    left: 30%;
+    top: 240px;
+    height: 50px;
+    width: 600px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.pos{
+    position: absolute;
+    left: 30%;
+    top: 340px;
+    height: 50px;
+    width: 600px;
+    text-align: center;
+    font-size: 40px;  
+}
